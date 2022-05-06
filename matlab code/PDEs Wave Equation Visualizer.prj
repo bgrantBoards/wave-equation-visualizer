@@ -1,0 +1,64 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1876779377" file="/Users/bengrant/school/PDEs/Final Project/matlab code/PDEs Wave Equation Visualizer.prj" location="/Users/bengrant/school/PDEs/Final Project/matlab code" name="PDEs Wave Equation Visualizer" target="target.mlapps" target-name="Package App">
+    <param.appname>PDEs Wave Equation Visualizer</param.appname>
+    <param.authnamewatermark>Ben Grant</param.authnamewatermark>
+    <param.email>bgrant@olin.edu</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Interact with and visualize the wave equation PDE.</param.summary>
+    <param.description>Use this app to explore a simulation of the 1-dimensional wave equation. 
+Interactively set the initial displacement and velocity of the wave using 
+the wave editor, then hit run and be amazed as the app displays the wave's 
+shape and and a color plot of its evolution over time.</param.description>
+    <param.screenshot>/Users/bengrant/Desktop/Screen Shot 2022-05-06 at 2.32.11 AM.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/bengrant/school/PDEs/Final Project</param.output>
+    <param.guid>13379755-9499-4353-8982-dd0615a67238</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/WaveEquationVis.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/Spline.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/bengrant/school/PDEs" name="Final Project" optional="false">/Users/bengrant/school/PDEs/Final Project</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022a.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>11.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
